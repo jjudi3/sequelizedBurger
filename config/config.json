@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Star$h1p",
+    "database": "burgerSeq",
+    "host": "3603",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ta37tgdih6sswdv0",
+    "password": "pt9qxf2sgldte2wg",
+    "database": "w158f1c32a9atazi",
+    "host": "s54ham9zz83czkff.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

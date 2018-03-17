@@ -1,0 +1,14 @@
+<h2>The Burgers you HAVE devoured!</h2>
+<br>
+<ul style="list-style: none;">
+  {{#each burgers}}
+    {{#if this.devoured}}
+      <li>
+        <br>
+        {{this.name}}
+        <br>
+        <hr>
+      </li>
+    {{/if}}
+  {{/each}}
+</ul>
